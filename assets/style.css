@@ -1,8 +1,29 @@
-body {background-image: url(concrete_seamless.png);}
+body {
+	background-image: url("assets/images/concrete_seamless.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	height:100%;
+	color:#777777;
+}
 
-form{
-	/* border: 1px solid red; */
+h1, h2, h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h2{
+	color:#4aaaa5;
+	font-size:20px;
 	padding: 20px;
+}
+
+.toplabel{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #ffffff;
+	height:50px;
+	line-height: 50px;
+	border-bottom: 1px solid #cccccc;
+	padding-top:10px;
+
 }
 label{
 	color: gray;
@@ -33,6 +54,7 @@ textarea{
 nav{
 	float:right;
 	margin-right: 50px;
+}
 
 .connectwithme{
 	position:absolute;
@@ -45,10 +67,46 @@ nav{
 	float: right;
 }
 
-footer{
-	background: #666666;
-	padding: 20px;
-	clear: both;
-	position: absolute;
+#portfolioContainer{
+	/* border:2px solid red; */
+	width:625px;
+	margin-left:50px;
+}
+.container{
+	/* border:1px solid blue; */
+	float:left;
+	width:285px;
+	height:222px;
+	margin: 10px 5px 10px 5px;
+	position:relative;
+}
+#meme{
+	/* border: 1px solid red; */
+	width: 283px;
+	margin-bottom: 20px;
+	position:absolute;
+}
+.memetext{
+	position:absolute;
+	color:white;
+	background-color: #4aaaa5;
+	width:100%;
 	text-align: center;
+	height:30px;
+	line-height: 40px;
+	bottom: 60px;
+}
+
+footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	color:silver;
+	font-size: 10px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #666666;
+	border-top: 10px solid cadetblue;
+}
 }
