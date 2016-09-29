@@ -1,0 +1,54 @@
+body {background-image: url(concrete_seamless.png);}
+
+form{
+	/* border: 1px solid red; */
+	padding: 20px;
+}
+label{
+	color: gray;
+}
+input{
+	margin-bottom: 30px;
+	width: 100%;
+	height: 20px;
+}
+textarea{
+	width:100%;
+	height: 100px;
+	resize:none;
+}
+#submitContact{
+	background-color: cadetblue;
+	border:none;
+	padding: 10px;
+	width:100px;
+	color:white;
+	font-size: 12px;
+	cursor: pointer;
+}
+#submitContact:hover{
+	background-color: #4aaaa5;
+}
+
+nav{
+	float:right;
+	margin-right: 50px;
+
+.connectwithme{
+	position:absolute;
+	right:0px;
+	width:200px;
+	text-align: center;
+}
+
+.icons{
+	float: right;
+}
+
+footer{
+	background: #666666;
+	padding: 20px;
+	clear: both;
+	position: absolute;
+	text-align: center;
+}
